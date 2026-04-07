@@ -2,6 +2,15 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+@layer components {
+  .container {
+    @apply w-285 mx-auto;
+  }
+  .container2 {
+    @apply w-[500px] mx-auto;
+  }
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
